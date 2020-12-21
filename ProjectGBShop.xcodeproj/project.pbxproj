@@ -99,13 +99,11 @@
 		120282872590830F00235E50 /* ProjectGBShop */ = {
 			isa = PBXGroup;
 			children = (
-				120282882590830F00235E50 /* AppDelegate.swift */,
-				1202828A2590830F00235E50 /* SceneDelegate.swift */,
+				120282C42590850400235E50 /* Resources */,
+				120282BC259083F400235E50 /* Core */,
+				120282BB259083E000235E50 /* App */,
+				120282C52590853500235E50 /* Environments */,
 				1202828C2590830F00235E50 /* ViewController.swift */,
-				1202828E2590830F00235E50 /* Main.storyboard */,
-				120282912590831100235E50 /* Assets.xcassets */,
-				120282932590831100235E50 /* LaunchScreen.storyboard */,
-				120282962590831100235E50 /* Info.plist */,
 			);
 			path = ProjectGBShop;
 			sourceTree = "<group>";
@@ -126,6 +124,72 @@
 				120282AC2590831100235E50 /* Info.plist */,
 			);
 			path = ProjectGBShopUITests;
+			sourceTree = "<group>";
+		};
+		120282BB259083E000235E50 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				120282882590830F00235E50 /* AppDelegate.swift */,
+				1202828A2590830F00235E50 /* SceneDelegate.swift */,
+				120282C02590843E00235E50 /* Flows */,
+				120282BF2590843200235E50 /* Entity */,
+				120282BE2590842500235E50 /* BusinessLogic */,
+				120282BD2590841400235E50 /* Assembly */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		120282BC259083F400235E50 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		120282BD2590841400235E50 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		120282BE2590842500235E50 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		120282BF2590843200235E50 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		120282C02590843E00235E50 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		120282C42590850400235E50 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				120282912590831100235E50 /* Assets.xcassets */,
+				120282932590831100235E50 /* LaunchScreen.storyboard */,
+				1202828E2590830F00235E50 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		120282C52590853500235E50 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				120282962590831100235E50 /* Info.plist */,
+			);
+			path = Environments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,7 +502,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6888952VPD;
-				INFOPLIST_FILE = ProjectGBShop/Info.plist;
+				INFOPLIST_FILE = ProjectGBShop/Environments/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +522,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6888952VPD;
-				INFOPLIST_FILE = ProjectGBShop/Info.plist;
+				INFOPLIST_FILE = ProjectGBShop/Environments/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
