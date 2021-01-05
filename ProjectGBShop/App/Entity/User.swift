@@ -7,7 +7,6 @@
 
 import Foundation
 
-// MARK: - User
 struct User: Codable {
     let idUser: Int
     let userLogin, userName, userLastname: String

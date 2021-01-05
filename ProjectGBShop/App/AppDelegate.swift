@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
         
-        // Logout
+        // Logout пользователя
         auth.logout { response in
             switch response.result {
             case .success(let logout):
